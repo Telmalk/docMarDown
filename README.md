@@ -430,3 +430,12 @@ monObjet.direBonjour();
 # WebPack
 
 * article intéressant pour bien débuter avec WebPack https://www.alsacreations.com/tuto/lire/1754-debuter-avec-webpack.html
+
+# RegEx
+
+* Pour s'entrainer au Expressions régulières https://regex101.com/
+
+
+# PHP
+
+* Documentaion complète sur le php http://www.phptherightway.com/
