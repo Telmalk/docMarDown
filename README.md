@@ -359,3 +359,74 @@ const template = (args) => {
 
 document.body.innerHTML = template("Wehsh", "Bien ?", "Ou Bien ?", 2);
 ````
+## Templating ES6
+
+* exemple de Templating avec ES6
+
+````ecmascript 6
+
+const template = (args) => {
+    let myTemplate = `
+        <div>
+            <p>${args[0]}</p>
+            <p>${args[1]}</p>
+            <p>${args[2]}</p>
+            <p>Score: ${args[3]}/3</p>
+        </div>
+    `;
+    return myTemplate;
+};
+
+document.body.innerHTML = template("Wehsh", "Bien ?", "Ou Bien ?", 2);
+````
+
+# TypeScript
+
+* TypeScript permet un typage statique optionnel des variables et des fonctions, la création de classes et d'interfaces, l'import de modules, tout en conservant l'approche non-contraignante de JavaScript. Il supporte la spécification ECMAScript 6.
+
+* Exemple de Typages en TypeScript
+
+````typescript
+
+let maValeurBooleenne: boolean = false;
+let maChaineDeCaractere: string = "Hello World";
+let monNombre: number = 1;
+function maFonction(): string {
+    return "Ma valeur de retour";
+}
+````
+
+* Les class en TypeScript
+
+````typescript
+
+class MaClass {
+    private _firstname;
+    private _lastname;
+
+    public constructor(firstname: string, lastname: string) {
+        this._firstname = firstname;
+        this._lastname = lastname;
+    }
+
+    public direBonjour(): string {
+        return "Bonjour " + this._firstname + ", " + this._lastname;
+    }
+}
+
+let monObjet = new MaClass("titi", "toto");
+monObjet.direBonjour();
+````
+
+# Canvas
+
+* Quelques Lien pour le canvas
+
+* https://jsfiddle.net/j2n0ptmf/
+* https://www.html5canvastutorials.com/
+* https://www.sitepoint.com/html5-canvas-tutorial-introduction/
+* https://internethistory.yahoo.co.jp/2017/
+
+# WebPack
+
+* article intéressant pour bien débuter avec WebPack https://www.alsacreations.com/tuto/lire/1754-debuter-avec-webpack.html
